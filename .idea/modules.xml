@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SDP2016.iml" filepath="$PROJECT_DIR$/SDP2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk1/Wk1.iml" filepath="$PROJECT_DIR$/Wk1/Wk1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk1/Wk1_Java.iml" filepath="$PROJECT_DIR$/Wk1/Wk1_Java.iml" />
     </modules>
   </component>
 </project>
