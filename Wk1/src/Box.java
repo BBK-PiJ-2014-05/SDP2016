@@ -16,7 +16,7 @@ public class Box<T> {
     }
 
     public static void main(String[] args){
-        Box<String> strBox = new Box<String>("What's may name?");
+        Box<String> strBox = new Box<String>("Hello World");
         Box<Integer> intBox = new Box<Integer>(234);
         Box<Double> dbleBox = new Box<Double>(233.223);
         System.out.println(intBox);
