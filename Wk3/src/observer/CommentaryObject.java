@@ -43,8 +43,8 @@ public class CommentaryObject implements Subject, Commentary {
     }
 
     @Override
-    public void setDesc(String dec){
-        commentary = dec;
+    public void setDesc(String desc){
+        commentary = desc;
         notifyObservers();
 
 

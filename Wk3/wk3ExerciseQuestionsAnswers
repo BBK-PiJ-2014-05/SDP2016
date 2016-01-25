@@ -1,0 +1,51 @@
+
+DESIGN PATTERNS EXERCISES
+
+1.
+	(a) Default methods for interfaces in Java8.
+
+		public interface a{
+			String method(){
+				String hello = "Hello";
+			return hello;
+			}
+		}
+
+	(b) Multiple inheritance permitted with interfaces; abstract classes only one (extended)
+		public class a extends b, implements c, d{
+
+		...
+		}
+	(c) Abstract classes may hold state, interfaces may not.
+		public abstract class a{
+
+		 public static final int A = 4;
+
+		 ...
+		}
+
+
+2.
+	(a) false e.g. Serialzable has no methods it's just a marker
+	(b) false i.e. interfaces cannot hold state
+	(c) false e.g. no constructors allowed in interface- this would hold state
+
+3.
+
+4.	This set up allows for a new class of type WindowListener to use another version of one of it's methods without writing out all methods; instead
+	the WindowAdaptor class is extended and the new method simply Overrides the original method.
+
+5. 	Use private constructor
+
+6. 	Delay the (costly) instantiation of the object until it is required.
+
+7.
+
+8.	Observer supports MVC in that e.g. changes to the view must be notified to the Controller; Observer would be a way to notify the change- asyncronous.
+
+9. 	ToString() ;
+
+10.	The logic used to create an object is hidden from the client and the object is referred to by some common interface.
+
+11.	Decorator pattern
+
