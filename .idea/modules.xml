@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SDP2016.iml" filepath="$PROJECT_DIR$/SDP2016.iml" />
-
+      <module fileurl="file://$PROJECT_DIR$/SML/SML.iml" filepath="$PROJECT_DIR$/SML/SML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk1/Wk1.iml" filepath="$PROJECT_DIR$/Wk1/Wk1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk2/Wk2.iml" filepath="$PROJECT_DIR$/Wk2/Wk2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk3/Wk3.iml" filepath="$PROJECT_DIR$/Wk3/Wk3.iml" />

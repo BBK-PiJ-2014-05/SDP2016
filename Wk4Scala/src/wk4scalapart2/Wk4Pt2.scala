@@ -190,22 +190,55 @@ object Alien{
 
 
     //27.
-    class Person(f:String,l:String,e:String){
+    case class Person1(f:String,l:String,e:String){
       val first:String = f
       val last:String = l
       val email:String = e
     }
 
-    val pers = new Person("Jane","Smile","jane@smile.com")
+    val pers = Person1("Jane","Smile","jane@smile.com")
     pers.first is "Jane"
     pers.last is "Smile"
     pers.email is "jane@smile.com"
 
 
-    val pers1 = new Person("j","w","r")
-    val people = Vector(pers,pers1)
-    people(0) is pers
-    
+    val people = Vector(Person1("Jane","Smile","jane@smile.com"),Person1("George","Grisole","j@grisole.com"),
+                        Person1("Pete","Sampras","pete.com"),Person1("Doug","Rich","doug@rich.com"))
+    people(0) is "Person1(Jane,Smile,jane@smile.com)"
+
+    case class Name(f:String,l:String){
+      val first: String = f
+      val last: String = l
+    }
+
+    val map = Map("john@bull.com"->Name("john","bull"),"katee@duchess.com"->Name("Katee","Middletone"))
+
+    val lkup = map.get("john@bull.com")
+    println(lkup)
+    map("john@bull.com") is Name("john","bull")
+    map("katee@duchess.com") is Name("Katee","Middletone")
+    val map2 = map + ("jiminy@cricket.com"->Name("jiminy","Cricket"))
+    map2("jiminy@cricket.com") is Name("Jiminy","Cricket")
+
+    var set = Set("English","German","Spanish","Chinese") //use var to make set mutable
+    set += "Turkish"
+    set += "English" // sets contain only unique values => not allowed
+    set -= "Spanish" // remove Spanish
+    println(set("Spanish")) // Spanish has been successfully removed
+    val map3 = map2 - "jiminy@cricket.com"
+    println(map3) //successfully removed jiminy cricket using just the key value
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
