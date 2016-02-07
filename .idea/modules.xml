@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/Wk2/Wk2.iml" filepath="$PROJECT_DIR$/Wk2/Wk2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk3/Wk3.iml" filepath="$PROJECT_DIR$/Wk3/Wk3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk4Scala/Wk4Scala.iml" filepath="$PROJECT_DIR$/Wk4Scala/Wk4Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk5Java/Wk5Java.iml" filepath="$PROJECT_DIR$/Wk5Java/Wk5Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk5Scala/Wk5Scala.iml" filepath="$PROJECT_DIR$/Wk5Scala/Wk5Scala.iml" />
     </modules>
   </component>
 </project>

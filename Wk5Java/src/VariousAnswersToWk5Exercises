@@ -1,0 +1,25 @@
+1a)
+Strategy design pattern should allow the program to specify the concrete class of a selection of similar objects at runtime using an abstract class or interface,
+depending on what is most appropriate at the time the object is required.
+1b)
+An ideal use of the Strategy design pattern is when platform or device considerations are important, for example, the program needs to detect if it is running on a iphone or a desktop PC to invoke an appropriate view.
+5)
+“In general, the details of object construction, such as instantiating and
+initialising the components that comprise the object, are kept within the
+object, often as part of its constructor.”
+Comment on this statement with reference to modularity and construction bloat
+
+Good coding requires small and easy to understand methods to facilitate the development process since many people may need to work on the same project.
+By following some industry standards, it is much easier to understand a program. For example, constructors should provide little code and only provide enough
+to create a valid and stable object, leaving additional processing until it is required.
+Separating functionality over different classes is generally better than trying to accomplish too much in one class. Short methods and small classes are easier to read and are less cluttered. This forms the basis of a modular approach to software development,
+where the project is broken up into small distinct units and different groups can work on different parts of the project at the same time.
+
+7 (a) What is the Facade Pattern?
+    The Facade pattern provides an interface to the client which hides the complexities of the system allowing the client to access the system in a simple way. Facade
+     pattern is an example of a structural pattern.
+
+(b) When, and why, would you use the Facade Pattern?
+    When you need to grant access to the system to a client without revealing the details of how the system works.
+
+
