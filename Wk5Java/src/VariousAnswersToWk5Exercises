@@ -22,4 +22,7 @@ where the project is broken up into small distinct units and different groups ca
 (b) When, and why, would you use the Facade Pattern?
     When you need to grant access to the system to a client without revealing the details of how the system works.
 
+9. Use Bridge pattern when you need to decouple the sbstraction from the implementation
+
+
 
