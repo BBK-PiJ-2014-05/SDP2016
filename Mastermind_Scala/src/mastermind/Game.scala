@@ -11,8 +11,7 @@ class Game {
     * The number of guesses is found in the props file (in this case 12)
     *
     * def runGames(testMode: Boolean): Unit={}
-    * 
-
-
+    *
+    */
 
 }
