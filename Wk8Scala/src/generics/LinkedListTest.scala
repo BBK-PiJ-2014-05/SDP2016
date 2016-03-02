@@ -7,7 +7,7 @@ package generics
   */
 object LinkedListTest extends App{
 
-  val example = Pair(2,Pair(3,Pair(4,End)))
+  val example = Pair(2,Pair(3,Pair(4,End))) // the parentheses in the notes Empty() do not work, why??
   assert(example.length == 3)
   assert(example.tail.length == 2)
   assert(End.length == 0)

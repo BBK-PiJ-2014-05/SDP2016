@@ -32,7 +32,7 @@ final case object End extends LinkedList[Nothing] {
     def t: Nothing = throw new NoSuchElementException("tail of empty list")
 
      def length: Int = 0
-  
+
 
   override def contains(x:Any) = false
 

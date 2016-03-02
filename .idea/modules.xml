@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mastermind_Scala/Mastermind_Scala.iml" filepath="$PROJECT_DIR$/Mastermind_Scala/Mastermind_Scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/SDP2016.iml" filepath="$PROJECT_DIR$/SDP2016.iml" />
       <module fileurl="file://$PROJECT_DIR$/SML/SML.iml" filepath="$PROJECT_DIR$/SML/SML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SML_Java/SML_Java.iml" filepath="$PROJECT_DIR$/SML_Java/SML_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/SML_Scala/SML_Scala.iml" filepath="$PROJECT_DIR$/SML_Scala/SML_Scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk1/Wk1.iml" filepath="$PROJECT_DIR$/Wk1/Wk1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk2/Wk2.iml" filepath="$PROJECT_DIR$/Wk2/Wk2.iml" />
@@ -12,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/Wk5Java/Wk5Java.iml" filepath="$PROJECT_DIR$/Wk5Java/Wk5Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk5Scala/Wk5Scala.iml" filepath="$PROJECT_DIR$/Wk5Scala/Wk5Scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/Wk6Scala/Wk6Scala.iml" filepath="$PROJECT_DIR$/Wk6Scala/Wk6Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk7Scala/Wk7Scala.iml" filepath="$PROJECT_DIR$/Wk7Scala/Wk7Scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wk8Scala/Wk8Scala.iml" filepath="$PROJECT_DIR$/Wk8Scala/Wk8Scala.iml" />
     </modules>
   </component>
 </project>

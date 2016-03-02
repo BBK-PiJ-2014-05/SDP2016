@@ -132,7 +132,7 @@ public class Translator {
             }
 
         } else {
-            r = scanInt();
+            r = scanInt(); // must be a out statement
             o = constr.newInstance(label, r);
             Instruction instru = (Instruction) o;
             return instru;
@@ -144,9 +144,19 @@ public class Translator {
 
 
 
+
+
         // You will have to write code here for the other instructions.
 
 
+    }
+
+    private Boolean validR(int r){
+        boolean res = false;
+        if(r >= 0 && r < 32){
+            res = true;
+        }
+        return res;
     }
 
     /*

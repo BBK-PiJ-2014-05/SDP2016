@@ -58,6 +58,9 @@ object VectorEx extends App {
   numbers.foreach((i:Int)=>t = t + squareThem(i) + " ")
   t is "1 4 25 9 49 "
 
+ println("seven tenths is %25.20f".format(7 * 0.1))
+
+
 
 
 
