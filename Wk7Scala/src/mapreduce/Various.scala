@@ -9,19 +9,36 @@ import scala.collection.mutable.ListBuffer
 
 object Various extends App{
 
+  //1(a)
+
+
   val v = Vector(1,2,3,4)
   v.map(n => n * 11 + 10) is Vector(21,32,43,54)
 
+
+  //(b)
   println(v.foreach(n => n * 11 + 10)) // nothing is output
 
   v.foreach(println) // but this works because foreach returns Unit not a new list or Vector
 
+  //(c)
   val buf = scala.collection.mutable.ListBuffer.empty[Int] // use mutable list buffer to hold results
   for(n <- v){
     buf += n *11 + 10
   }
   buf is ListBuffer(21,32,43,54)
 
+//2.
+
+  v.map(n => n + 1) is Vector(2, 3, 4, 5)
+  var x = new ListBuffer[Int]
+  for (i <- v){
+    x += (i+1)
+  }
+  x.toVector is Vector(2,3,4,5)
+
+
+  //3.
   val v1 = Vector(1, 10, 100, 1000)
   v1.reduce((sum, n) => sum + n) is 1111
 
