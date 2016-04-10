@@ -11,8 +11,20 @@ object Factory {
 
   def getInstance(c: Class[_], b: Boolean): Game ={
 
-    val context = new ClassPathXmlApplicationContext("Beans.xml")
-    val colourSetMap = context.getBean("possibleColours")
+    val colours:Set[String] = ColourSetMap.getColourKeys
+    val codeLength = ColourSetMap.CODELENGTH
+    val r = ColourSetMap.generateRan
+    var list = List[String]()
+    val m = ColourSetMap.getCode(list)
+    for (x <- m) print(" " + x)
+
+    val numberOfGuesses = ColourSetMap.NUMBEROFGUESEES
+    val allCorrect:Boolean = false
+    var guess = 0
+    while (!allCorrect && guess < numberOfGuesses){
+      System.out.println("Next Guess: ")
+
+    }
 
 
 
@@ -25,6 +37,9 @@ object Factory {
 
 
   }
+
+
+
 
 
 }

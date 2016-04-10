@@ -14,4 +14,22 @@ object divide{
     else Finite(x/y)
   }
 
+
+
+
+
+
+
+
+  object division extends App{
+    val a = divide(2,0)
+    val b = divide(2,2)
+    divide(2,0) match {
+      case Infinite => "Not valid"
+      case Finite(n) => "OK, andwer is " + n
+    }
+
+
+
+  }
 }
